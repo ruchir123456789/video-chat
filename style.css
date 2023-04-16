@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(166, 170, 170);
+    
+    
+    
+}
+.meet-area{
+    position: relative;
+    top:12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-area{
+    position: relative;
+    top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    margin: 10px;
+}
+
+.meet-controls-bar{
+    position: absolute;
+    top: 40vh;
+   left: 46vw;
+}
+
+@media only screen and (max-width: 900px) {
+    
+
+    .meet-area{
+        position: relative;
+        top:12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .meet-controls-bar{
+        position: absolute;
+        top: 50vh;
+       left:40vw;
+    }
+    
+
+  }
